@@ -1,0 +1,26 @@
+{
+  "name": "tualo/crontab",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Hoffmann",
+      "email": "thomas.hoffmann@tualo.de"
+    }
+  ],
+  "require": {
+    "nemiah/php-fints": "4.0.0",
+    "nemiah/php-sepa-xml": "~1.2",
+    "digitick/sepa-xml": "~1.1.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Tualo\\Office\\Crontab\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "version": "1.0.0"
+}
